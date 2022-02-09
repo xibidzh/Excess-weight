@@ -1,4 +1,4 @@
-let yourHeight = prompt('Введите свой рост в метрах (0.0):');
+let yourHeight = prompt('Введите свой рост в метрах (например 1.7м):');
 let yourWeight = prompt('Введите свой вес в кг:');
 let isMassOver = yourWeight/(yourHeight*yourHeight);
 
@@ -15,7 +15,7 @@ else if (isMassOver >= 26){
     alert('Ваш вес больше нормы');
 }
 console.log(isMassOver);
-alert('Индекс массы тела =' +  Math.round(isMassOver));
+alert('Индекс массы тела = ' +  Math.round(isMassOver));
 
 
 
