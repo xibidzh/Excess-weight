@@ -15,6 +15,7 @@ else if (isMassOver >= 26){
     alert('Ваш вес больше нормы');
 }
 console.log(isMassOver);
+ alert('Индекс массы тела =' + isMassOver);
 
 
 
